@@ -3,9 +3,10 @@
 import React from 'react';
 import './App.css';
 import Banner from './Banner';
+
+import PacketLatencyDisplay from './PacketLatencyDisplay';
 import Exhibit from './Exhibit';
 import IpAddressDisplay from './IpAddressDisplay';
-
 function App() {
   return (
     <div className="App">
